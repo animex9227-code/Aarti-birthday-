@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#ff78a9">
+<title>Happy Birthday Aarti 💗</title>
+<style>
+:root{--pink:#ff4f91;--deep:#b51e62;--pale:#fff0f6;--cream:#fff9fc}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#8b2454;background:linear-gradient(145deg,#ffeaf3,#fff7fb 48%,#ffd9e9);overflow-x:hidden}
+button{font:inherit;cursor:pointer}
+#intro{min-height:100svh;display:flex;align-items:center;justify-content:center;padding:24px;position:relative;overflow:hidden;text-align:center;background:radial-gradient(ellipse at top,#fff 0%,#ffe4f0 42%,#ffb8d4 100%)}
+.card{position:relative;z-index:2;width:min(100%,480px);padding:34px 24px;border:1px solid #ffffffc9;border-radius:30px;background:#ffffffb8;box-shadow:0 20px 60px #d94c8730;backdrop-filter:blur(8px)}
+.kicker{letter-spacing:2px;text-transform:uppercase;font-size:.75rem;color:#c24c7b}
+h1{font-family:Georgia,serif;font-weight:600;font-size:clamp(2.6rem,11vw,4.3rem);line-height:1.02;margin:16px 0;color:#ed4387}
+.subtitle{line-height:1.7;color:#9d4770}
+.btn{border:0;border-radius:999px;padding:14px 23px;color:white;background:linear-gradient(135deg,#ff75a9,#e9367e);box-shadow:0 8px 20px #e9367e35;font-weight:700;transition:transform .2s}
+.btn:active{transform:scale(.97)}
+.heart{position:absolute;animation:floatUp linear infinite;opacity:.65;pointer-events:none}
+@keyframes floatUp{from{transform:translateY(110vh) rotate(0deg);opacity:0}15%{opacity:.8}to{transform:translateY(-15vh) rotate(35deg);opacity:0}}
+#main{display:none}
+section{padding:64px 20px;position:relative}
+.wrap{max-width:760px;margin:auto}
+.hero{text-align:center;min-height:78svh;display:grid;place-items:center;background:linear-gradient(160deg,#ffbed7,#fff0f6 55%,#ffd4e5)}
+.hero h2{font:600 clamp(2.5rem,10vw,5rem)/1.05 Georgia,serif;color:#e83f84;margin:12px 0}
+.hero p{line-height:1.8;max-width:520px;margin:15px auto}
+.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:.75rem;color:#b84c79}
+.panel{background:#ffffffc9;border:1px solid #fff;border-radius:26px;padding:26px;margin:18px 0;box-shadow:0 12px 35px #b83b7020}
+h3{font:600 2rem Georgia,serif;color:#d93278;margin:0 0 14px}
+p{line-height:1.8}
+.wishes{display:grid;gap:12px}
+.wish{background:#fff5fa;border:1px solid #ffd0e2;border-radius:18px;padding:15px 17px;display:flex;gap:12px;align-items:flex-start}
+.wish span{font-size:1.4rem}
+.notes{display:grid;grid-template-columns:1fr;gap:12px}
+.note{background:#fff5d9;border-radius:14px;padding:17px;transform:rotate(-1deg);box-shadow:0 6px 16px #a52a5a12}
+.note:nth-child(even){background:#ffe7f0;transform:rotate(1deg)}
+.love{text-align:center;background:#30142e;color:#ffe5f1}
+.love h3{color:#ff8db9}
+.love .big{font:italic clamp(2.5rem,9vw,4.5rem) Georgia,serif;color:#ff82b2}
+.final{text-align:center;background:linear-gradient(160deg,#ffc4db,#fff2f7)}
+footer{text-align:center;padding:25px;font-size:.85rem;color:#a34a72}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .7s,transform .7s}
+.reveal.visible{opacity:1;transform:none}
+#confetti{position:fixed;inset:0;pointer-events:none;z-index:10;overflow:hidden}
+@media(min-width:600px){.notes{grid-template-columns:1fr 1fr}.panel{padding:34px}}
+</style>
+</head>
+<body>
+<div id="confetti"></div>
+<div id="intro">
+  <div class="card">
+    <div class="kicker">A little surprise for someone special</div>
+    <div style="font-size:2.3rem;margin:14px">🎀 💗 🎀</div>
+    <h1>Happy Birthday<br>Aarti!</h1>
+    <p class="subtitle">I made something just for you.<br>Ready for your little surprise, birthday girl? ✨</p>
+    <button class="btn" id="openBtn">Open Your Surprise 💝</button>
+    <p style="font-size:.8rem;margin-bottom:0">Made with lots of love ♡</p>
+  </div>
+</div>
+<div id="main">
+  <section class="hero">
+    <div class="wrap reveal">
+      <div style="font-size:2rem">🎂 🎈 ✨</div>
+      <div class="eyebrow">Today is all about you</div>
+      <h2>Happy Birthday,<br>Aarti 💗</h2>
+      <p>Another year, another reason for me to feel lucky that you’re in my life. I hope today brings you the same happiness you bring to me.</p>
+      <a href="#message"><button class="btn">Read Your Message ↓</button></a>
+    </div>
+  </section>
+  <section id="message">
+    <div class="wrap reveal">
+      <div class="panel">
+        <div class="eyebrow">From my heart</div>
+        <h3>My Girl ♡</h3>
+        <p>Aarti, on your special day, I just want you to know how much you mean to me. You make ordinary moments feel special, and your presence brings so much warmth and happiness into my life.</p>
+        <p>I hope this new year of your life brings you beautiful memories, peaceful days, exciting opportunities, and countless reasons to smile. You deserve kindness, love, and every good thing coming your way.</p>
+        <p>Keep being your wonderful self. I’m so happy I get to celebrate you today. <b>Happy Birthday, my love! 💗</b></p>
+        <p style="text-align:right">— Yours, always ❤️</p>
+      </div>
+    </div>
+  </section>
+  <section style="background:#fff8fc">
+    <div class="wrap reveal">
+      <div class="eyebrow">Birthday wishes</div><h3>Little wishes for you ✨</h3>
+      <div class="wishes">
+        <div class="wish"><span>🌟</span><div><b>May your dreams come true.</b><br>May every little step take you toward the life you wish for.</div></div>
+        <div class="wish"><span>💖</span><div><b>May you always find reasons to smile.</b><br>Even on the ordinary days, may something lovely find you.</div></div>
+        <div class="wish"><span>🌷</span><div><b>May you feel loved and appreciated.</b><br>Today and every day, remember how special you are.</div></div>
+        <div class="wish"><span>👑</span><div><b>Keep believing in yourself.</b><br>You’re capable of more than you sometimes realise.</div></div>
+        <div class="wish"><span>🦋</span><div><b>May this year be beautiful.</b><br>Full of growth, laughter, adventures, and sweet memories.</div></div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="wrap reveal">
+      <div class="eyebrow">Just a few reminders</div><h3>Things I adore about you 💌</h3>
+      <div class="notes">
+        <div class="note">🌸 Your smile can make a difficult day feel lighter.</div>
+        <div class="note">💗 You have your own kind of magic, simply by being you.</div>
+        <div class="note">✨ Your kindness means more than you know.</div>
+        <div class="note">🫶 You deserve to be proud of how far you’ve come.</div>
+        <div class="note">🌷 You make so many little moments memorable.</div>
+        <div class="note">💕 I’m grateful for you—not just today, but every day.</div>
+      </div>
+    </div>
+  </section>
+  <section class="love">
+    <div class="wrap reveal">
+      <div style="font-size:2.5rem">♡</div>
+      <div class="big">You are amazing,<br>Aarti.</div>
+      <p>Never forget: you are loved, you are important, and you deserve good things. Keep shining in your own beautiful way. 💖</p>
+      <button class="btn" id="heartBtn">Send You a Million Hearts 💕</button>
+    </div>
+  </section>
+  <section>
+    <div class="wrap reveal">
+      <div class="panel" style="text-align:center">
+        <div class="eyebrow">One last little note</div>
+        <h3>My favourite person 💗</h3>
+        <p>No website could fit all the things I wish for you, but I hope this small surprise reminds you how special you are to me.</p>
+        <p><b>Happy Birthday, Aarti! 🎂🎀</b><br>May your heart stay happy and your days be filled with love.</p>
+      </div>
+    </div>
+  </section>
+  <section class="final">
+    <div class="wrap reveal">
+      <div style="font-size:3rem">💗 🌸 💗</div>
+      <h2 style="font:600 clamp(2.4rem,9vw,4rem) Georgia,serif;color:#e83f84">Thank you for being you.</h2>
+      <p>Stay happy, stay magical, and never stop smiling. The best memories are still waiting to be made. ♡</p>
+      <button class="btn" onclick="window.scrollTo({top:0,behavior:'smooth'})">Back to the beginning ↑</button>
+    </div>
+  </section>
+  <footer>Made with love for Aarti ♡</footer>
+</div>
+<script>
+const intro=document.getElementById('intro'), main=document.getElementById('main');
+function makeHeart(){const e=document.createElement('div');e.className='heart';e.textContent=['♡','♥','💗','✦','🌸'][Math.floor(Math.random()*5)];e.style.left=Math.random()*100+'%';e.style.fontSize=(14+Math.random()*23)+'px';e.style.animationDuration=(7+Math.random()*8)+'s';document.body.appendChild(e);setTimeout(()=>e.remove(),16000)}
+setInterval(makeHeart,450);for(let i=0;i<18;i++)setTimeout(makeHeart,i*180);
+document.getElementById('openBtn').addEventListener('click',()=>{intro.style.display='none';main.style.display='block';window.scrollTo(0,0);document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));burst();});
+const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+function burst(){const box=document.getElementById('confetti');for(let i=0;i<90;i++){const p=document.createElement('i');p.style.cssText=`position:absolute;left:${Math.random()*100}%;top:-15px;width:${5+Math.random()*7}px;height:${7+Math.random()*10}px;background:${['#ff4f91','#ff9fc5','#ffd166','#ffffff','#d65b9b'][i%5]};border-radius:3px;transform:rotate(${Math.random()*360}deg);animation:fall ${2+Math.random()*3}s linear forwards`;box.appendChild(p);setTimeout(()=>p.remove(),5200)}}
+const style=document.createElement('style');style.textContent='@keyframes fall{to{transform:translateY(110vh) rotate(720deg);opacity:0}}';document.head.appendChild(style);
+document.getElementById('heartBtn').addEventListener('click',()=>{burst();for(let i=0;i<25;i++)setTimeout(makeHeart,i*80);});
+</script>
+</body>
+</html>
